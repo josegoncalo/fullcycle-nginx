@@ -16,6 +16,7 @@ services:
       - node-network
 
   app:
+    image: nodejs
     build:
       context: ./javascript
     container_name: app
